@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=dO05XcXLxGs
 
 ## Evolution
 
-1. A target image is selected by the user - an image to be used as a target of the "**evolution**".
+1. A target image is selected by the user - an image to be used as a target for the "**evolution**".
 
 2. A number of "**individuals**" - images - are created. Each individual possesses a "**genotype**": a series of "**genes**" - ellipses - each with a randomly generated size, color, and position. Drawing all the genes in the genotype produces a "**phenotype**" - final image.
 
