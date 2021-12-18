@@ -39,7 +39,7 @@ Provided as a Visual Studio 2019 solution.
 This version of the program runs a single worker thread which does all the work running the evolution. It is therefore very slow. A slightly faster, multi-threaded version is available here:  
 https://github.com/MKCAMK/genetic_evolution_of_images-multi-threaded
 
-The application window is made with WinApi; drawing, both in the window and in the evolution is done in GDI. Thus, only a Windows version.
+The application window is made with WinApi; drawing, both in the window and in the evolution, is done in GDI. Thus, only a Windows version.
 
 ![Main application window running an evolution](./examples/Darwin's_fish_5801386generation.png)
 
