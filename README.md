@@ -57,7 +57,7 @@ In theory, increasing the "Number of images used in the evolution" can produce b
 
 The resolution of the target image decides the time it takes to rate the evolved image, as it decides how many pixels needs to be compared - twice as many pixels, means twice as much time; trice as many pixels... It is a good idea to reduce the resolution of the desired target image as much as possible before starting.
 
-The time taken by the process of rating can also be reduced by increasing the "Comparison's precision" setting. This describes the length of the stride that is taken between each pixel used for the comparison. When set to "1", all pixels are compared (a stride of one); when set to "5", every fifth pixel is compared (a stride of five) - this is five times as fast. Higher values, however, introduce artefacts, like off-color regions, and make it generally more difficult to evolve a good looking image.
+The time taken by the process of rating can also be reduced by increasing the "Comparison's precision" setting. This describes the length of the stride that is taken between each pixel used for the comparison. When set to "1", all pixels are compared (a stride of one); when set to "5", every fifth pixel is compared (a stride of five) - this is five times as fast. Higher values, however, introduce artefacts, and make it generally more difficult to evolve a good looking image.
 
 It is possible to use higher values for "Comparison's precision" as an offset for a high resolution target image, as a bigger picture is less affected by a decrease in the visual quality anyway.
 
@@ -65,7 +65,7 @@ It is possible to use higher values for "Comparison's precision" as an offset fo
 
 The number of ellipses used in the evolution decides how much time the drawing phase takes, but also how much detail of the target image can the evolved image represent. More ellipses mean more detail and lower speed. On the other hand, if there are too few ellipses to even cover the drawing area, the ellipses will have to stretch to compensate, resulting in big blobs of a single color.
 
-One possible strategy is to make sure that there are just enough ellipses to cover almost all of the drawing area, and that they are of a size roughly corresponding to the size of the target image features that are to be recreated in the evolving image. If ellipses are too large or too small at the creation, this can be adjusted using the "Limit to the size of an ellipse at its creation" setting.
+One possible strategy is to make sure that there are just enough ellipses to cover all of the drawing area, and that they are of a size roughly corresponding to the size of the target image features that are to be recreated in the evolving image. If ellipses are too large or too small at the creation, this can be adjusted using the "Limit to the size of an ellipse at its creation" setting.
 
 <p align="center">------------------</p>
 
